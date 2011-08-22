@@ -36,3 +36,8 @@ alias p='pwd'
 alias rz='~/.zshrc'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias ifc='ifconfig'
+
+repo(){
+mkdir $1 && cd $1
+git init
+}
