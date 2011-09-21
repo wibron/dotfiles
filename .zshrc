@@ -33,7 +33,7 @@ alias c='clear'
 alias gs='git status'
 alias gs1='git status -s'
 alias p='pwd'
-alias rz='~/.zshrc'
+alias rz='. ~/.zshrc'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias ifc='ifconfig'
 
