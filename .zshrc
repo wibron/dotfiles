@@ -36,6 +36,7 @@ alias p='pwd'
 alias rz='. ~/.zshrc'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias ifc='ifconfig'
+alias glu='git shortlog -s -n'
 
 repo(){
 mkdir $1 && cd $1
