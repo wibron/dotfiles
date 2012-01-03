@@ -1,0 +1,19 @@
+{
+	"auto_upgrade_last_run": 1325576320,
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoSelect",
+		"CoffeeScript",
+		"EncodingHelper",
+		"Git",
+		"HTML5",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Prefixr",
+		"sublime-jslint",
+		"SublimeCodeIntel",
+		"Theme - Soda",
+		"ZenCoding"
+	]
+}

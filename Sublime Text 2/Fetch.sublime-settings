@@ -1,0 +1,23 @@
+{
+	"files":
+	{
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
+		"modernizr": "https://raw.github.com/Modernizr/Modernizr/master/modernizr.js",
+		"raphael": "http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js",
+		"reset": "http://meyerweb.com/eric/tools/css/reset/reset.css",
+		"cycle": "http://malsup.github.com/jquery.cycle.all.js"
+	},
+	"packages":
+	{
+		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
+		"qunit": "https://github.com/jquery/qunit/zipball/master",
+		"bootstrap": "https://github.com/twitter/bootstrap/zipball/master",
+		"noisy": "https://github.com/DanielRapp/Noisy/zipball/master",
+		"jquery mobile": "https://github.com/jquery/jquery-mobile/zipball/master",
+		"foundation": "https://github.com/zurb/foundation/zipball/master",
+		"fancybox": "http://fancybox.googlecode.com/files/jquery.fancybox-1.3.4.zip",
+		"skeleton": "https://github.com/dhgamache/Skeleton/zipball/master",
+		"wordpress": "http://wordpress.org/latest.zip"
+	}
+}
