@@ -4,15 +4,20 @@
 	[
 		"Alignment",
 		"AutoSelect",
+		"Change Tracker",
 		"CoffeeScript",
 		"EncodingHelper",
 		"Git",
 		"HTML5",
 		"Nettuts+ Fetch",
+		"Nodejs",
 		"Package Control",
+		"PhpDoc",
 		"Prefixr",
+		"SideBarGit",
 		"sublime-jslint",
 		"SublimeCodeIntel",
+		"sublimelint",
 		"Theme - Soda",
 		"ZenCoding"
 	]
