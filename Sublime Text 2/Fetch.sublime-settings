@@ -1,23 +1,26 @@
 {
 	"files":
 	{
-		"jquery": "http://code.jquery.com/jquery.min.js",
-		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
-		"modernizr": "https://raw.github.com/Modernizr/Modernizr/master/modernizr.js",
-		"raphael": "http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js",
-		"reset": "http://meyerweb.com/eric/tools/css/reset/reset.css",
-		"cycle": "http://malsup.github.com/jquery.cycle.all.js"
+		"Eric Meyer CSS-Reset": "http://meyerweb.com/eric/tools/css/reset/reset.css",
+		"Modernizr": "https://raw.github.com/Modernizr/Modernizr/master/modernizr.js",
+		"jQuery": "http://code.jquery.com/jquery.min.js",
+		"jQuery cycle plugin": "http://malsup.github.com/jquery.cycle.all.js",
+		"normalize.css": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
+		"raphael.js": "http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js"
 	},
 	"packages":
 	{
-		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
-		"qunit": "https://github.com/jquery/qunit/zipball/master",
-		"bootstrap": "https://github.com/twitter/bootstrap/zipball/master",
-		"noisy": "https://github.com/DanielRapp/Noisy/zipball/master",
-		"jquery mobile": "https://github.com/jquery/jquery-mobile/zipball/master",
+		"AnythingSlider": "https://github.com/ProLoser/AnythingSlider/zipball/master",
+		"Fancybox": "http://fancybox.googlecode.com/files/jquery.fancybox-1.3.4.zip",
+		"HTML5 Boilerplat (with comments)": "https://github.com/h5bp/html5-boilerplate/zipball/master",
+		"HTML5 Boilerplate (stripped)": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
+		"Qunit": "https://github.com/jquery/qunit/zipball/master",
+		"Twitter Bootstrap": "https://github.com/twitter/bootstrap/zipball/master",
+		"WordPress": "http://wordpress.org/latest.zip",
 		"foundation": "https://github.com/zurb/foundation/zipball/master",
-		"fancybox": "http://fancybox.googlecode.com/files/jquery.fancybox-1.3.4.zip",
-		"skeleton": "https://github.com/dhgamache/Skeleton/zipball/master",
-		"wordpress": "http://wordpress.org/latest.zip"
+		"jQuery Mobile": "https://github.com/jquery/jquery-mobile/zipball/master",
+		"nivo Slider": "https://github.com/gilbitron/Nivo-Slider/zipball/master",
+		"noisy": "https://github.com/DanielRapp/Noisy/zipball/master",
+		"skeleton": "https://github.com/dhgamache/Skeleton/zipball/master"
 	}
 }
