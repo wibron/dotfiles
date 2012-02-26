@@ -1,31 +1,19 @@
- Path to your oh-my-zsh configuration.
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/opt/local/bin:/usr/local/Cellar/gettext/0.18.1.1/bin/gettext
+
 export ZSH=$HOME/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-export ZSH_THEME="kennethreitz"
+export ZSH_THEME="cloud"
 
-# Set to this to use case-sensitive completion
-# export CASE_SENSITIVE="true"
+export gettext=/usr/local/Cellar/gettext/0.18.1.1/bin/gettext
+export LDFLAGS=-L/usr/local/Cellar/gettext/0.18.1.1/lib
+export CPPFLAGS=-I/usr/local/Cellar/gettext/0.18.1.1/include
 
-# Comment this out to disable weekly auto-update checks
-# export DISABLE_AUTO_UPDATE="true"
-
-# Uncomment following line if you want to disable colors in ls
-# export DISABLE_LS_COLORS="true"
-
-# Uncomment following line if you want to disable autosetting terminal title.
-# export DISABLE_AUTO_TITLE="true"
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
 alias ll='ls -alF'
+alias lll='ls -ahl'
 alias la='ls -A'
 alias l='ls -CF'
 alias rd='screen -rd'
@@ -36,9 +24,12 @@ alias p='pwd'
 alias rz='. ~/.zshrc'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias ifc='ifconfig'
+alias h='cd $HOME'
+alias py='python $1'
 alias glu='git shortlog -s -n'
 
 repo(){
 mkdir $1 && cd $1
 git init
+echo "Created repo " $1
 }
