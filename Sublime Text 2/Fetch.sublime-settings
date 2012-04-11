@@ -6,7 +6,8 @@
 		"jQuery": "http://code.jquery.com/jquery.min.js",
 		"jQuery cycle plugin": "http://malsup.github.com/jquery.cycle.all.js",
 		"normalize.css": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
-		"raphael.js": "http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js"
+		"raphael.js": "http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js",
+		"selectivizr":"https://raw.github.com/keithclark/selectivizr/master/selectivizr.js"
 	},
 	"packages":
 	{
