@@ -1,0 +1,14 @@
+[
+	{ "keys": ["ctrl+f9"], "command": "open_browser" },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+shift+q"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+alt+f"], "command": "htmlprettify" },
+	{ "keys": ["ctrl+alt+d"], "command": "file_diff_menu" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["ctrl+shift+l"],
+		"command": "insert_snippet",
+		"args": { "contents": "console.log(${1:}$SELECTION);${0}" }
+	}
+]
+
