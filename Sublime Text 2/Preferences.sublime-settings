@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/User/Tomorrow-Night.tmTheme",
+	"font_face": "Droid Sans Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 9,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Nil.sublime-theme",
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?$",
+	"word_wrap": "true"
+}
