@@ -1,0 +1,7 @@
+[
+	{ "keys": ["super+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+b"], "command": "reindent" },
+	{ "keys": ["super+k", "super+c"], "command": "toggle_minimap" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+]
