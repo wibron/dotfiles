@@ -1,17 +1,34 @@
 {
-	"color_scheme": "Packages/User/Tomorrow-Night.tmTheme",
-	"font_face": "Droid Sans Mono",
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Hunch-Dark.tmTheme",
+	"draw_indent_guides": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".sass-cache"
+	],
+	"font_face": "Inconsolata",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 9,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"EditorConfig",
+		"SublimeCodeIntel"
 	],
-	"theme": "Nil.sublime-theme",
+	"rulers":
+	[
+		80
+	],
+	"soda_classic_tabs": false,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?$",
 	"word_wrap": "true"
 }
