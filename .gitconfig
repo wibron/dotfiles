@@ -35,3 +35,4 @@
 [core]
 	autocrlf = true
 	safecrlf = false
+    excludesfile = ~/.dotfiles/.gitignore
