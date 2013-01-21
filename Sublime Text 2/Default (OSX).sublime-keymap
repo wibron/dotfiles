@@ -1,7 +1,9 @@
 [
-	{ "keys": ["super+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["alt+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["alt+shift+q"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 	{ "keys": ["ctrl+b"], "command": "reindent" },
 	{ "keys": ["super+k", "super+c"], "command": "toggle_minimap" },
-	{ "keys": ["ctrl+tab"], "command": "next_view" },
-	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+	{ "keys": ["alt+super+d"], "command": "find_all_under" }
 ]
