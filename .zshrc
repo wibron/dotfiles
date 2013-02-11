@@ -12,16 +12,6 @@ PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig:/us
 
 export SVN_EDITOR=sublime
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# CASE_SENSITIVE="true"
-# DISABLE_AUTO_UPDATE="true"
-# DISABLE_LS_COLORS="true"
-# DISABLE_AUTO_TITLE="true"
-# COMPLETION_WAITING_DOTS="true"
-
 plugins=(git,ruby)
 
 source $ZSH/oh-my-zsh.sh
