@@ -2,6 +2,23 @@
 	name = Patrik Wibron
 	email = patrik@wibron.nu
 
+[core]
+	excludesfile = /Users/patrik/.gitignore_global
+	autocrlf = input
+	safecrlf = false
+	editor = vim
+
+[github]
+	user = PatrikWibron
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
 [color]
 	branch = auto
 	diff = auto
@@ -31,8 +48,7 @@
 	type = cat-file -t
 	dump = cat-file -p
 	spush = svn dcommit
+	vemvare = blame
 
-[core]
-	autocrlf = true
-	safecrlf = false
-    excludesfile = ~/.dotfiles/.gitignore
+[push]
+	default = simple
