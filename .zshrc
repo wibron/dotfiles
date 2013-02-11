@@ -1,7 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="kolo"
-plugins=(brew git github osx svn)
 
 CFLAGS="freetype-config --cflags" 
 LDFLAGS="freetype-config --libs"
@@ -9,7 +8,7 @@ PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig:/us
 
 export SVN_EDITOR=sublime
 
-plugins=(git,ruby)
+plugins=(git ruby github osx svn)
 
 source $ZSH/oh-my-zsh.sh
 
