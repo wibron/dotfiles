@@ -9,6 +9,8 @@ colorscheme Tomorrow
 
 let g:indent_guides_auto_colors = 0
 
+autocmd BufNewFile,BufRead *.json set ft=javascript
+autocmd! bufwritepost vimrc source ~/.vimrc
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 
@@ -25,8 +27,15 @@ set smarttab
 
 set wildmenu
 set wildmode=list:longest,list:full
+set showmode
 set showcmd
 
+set laststatus=2
+
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
 
 set guicursor+=a:blinkon0
 set cursorline!
