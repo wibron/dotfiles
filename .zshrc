@@ -1,9 +1,28 @@
 ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="kennethreitz"
+#ZSH_THEME="geoffgarside"
+#ZSH_THEME="muse"
+#ZSH_THEME="kennethreitz"
+ZSH_THEME="kolo"
 plugins=(brew git github osx svn)
 
+CFLAGS="freetype-config --cflags" 
+LDFLAGS="freetype-config --libs"
+PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig:/usr/X11/lib/pkgconfig
+
 export SVN_EDITOR=sublime
+
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# CASE_SENSITIVE="true"
+# DISABLE_AUTO_UPDATE="true"
+# DISABLE_LS_COLORS="true"
+# DISABLE_AUTO_TITLE="true"
+# COMPLETION_WAITING_DOTS="true"
+
+plugins=(git,ruby)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -24,6 +43,7 @@ alias ifc='ifconfig'
 alias h='cd $HOME'
 alias py='python $1'
 alias glu='git shortlog -s -n'
+alias gd='git diff'
 alias s='svn'
 alias ss='svn status'
 alias sd='svn diff'
@@ -32,8 +52,15 @@ alias compassnormalize='compass create $1 -r compass-normalize --using compass-n
 alias cw='compass watch'
 alias yeo='yeoman'
 alias svn='/usr/local/bin/svn'
+alias gc='git commit -m'
+alias gb='git branch'
 
+# Applications
 alias lime="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
 alias sublime='lime'
+alias imageoptim='open -a ImageOptim.app $1'
 
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
