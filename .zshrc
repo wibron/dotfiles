@@ -8,7 +8,7 @@ PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig:/us
 
 export SVN_EDITOR=sublime
 
-plugins=(git ruby github osx svn)
+plugins=(git ruby)
 
 source $ZSH/oh-my-zsh.sh
 
