@@ -11,6 +11,7 @@
 		".bundle",
 		"build"
 	],
+	"file_exclude_patterns": [".gitkeep"],
 	"font_face": "Inconsolata",
 	"font_options":
 	[ "subpixel_antialias" ],
