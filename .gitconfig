@@ -9,7 +9,7 @@
 	editor = vim
 
 [github]
-	user = PatrikWibron
+	user = wibron
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
