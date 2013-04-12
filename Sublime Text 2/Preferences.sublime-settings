@@ -9,7 +9,8 @@
 		".git",
 		".sass-cache",
 		".bundle",
-		"build"
+		"build",
+		"node_modules"
 	],
 	"file_exclude_patterns": [".gitkeep", ".DS_Store"],
 	"font_face": "Inconsolata",
