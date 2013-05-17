@@ -50,6 +50,7 @@
 	spush = svn dcommit
 	spull = svn rebase
 	vemvare = blame
+	stash-diff = stash show -p stash@{0}
 
 [push]
 	default = simple
