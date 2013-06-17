@@ -24,6 +24,8 @@
 		"Vintage",
 		"SublimeCodeIntel"
 	],
+	"line_padding_top": -1,
+	"line_padding_bottom": 0,
 	"rulers": [ 80 ],
 	"scroll_past_end": true,
 	"soda_classic_tabs": false,
