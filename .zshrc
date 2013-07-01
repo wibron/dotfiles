@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="kolo"
+ZSH_THEME="kennethreitz"
 
 CFLAGS="freetype-config --cflags" 
 LDFLAGS="freetype-config --libs"
