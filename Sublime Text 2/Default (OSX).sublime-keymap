@@ -5,5 +5,7 @@
 	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 	{ "keys": ["ctrl+b"], "command": "reindent" },
 	{ "keys": ["super+k", "super+c"], "command": "toggle_minimap" },
-	{ "keys": ["alt+super+d"], "command": "find_all_under" }
+	{ "keys": ["alt+super+d"], "command": "find_all_under" },
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste_and_indent" }
 ]
