@@ -51,6 +51,7 @@
 	spull = svn rebase
 	vemvare = blame
 	stash-diff = stash show -p stash@{0}
+	standup = log --author="patrik.wibron" --pretty=format:'%Cred%h%Creset - %Cgreen%cd%Creset - %s%Creset' --abbrev-commit --since="yesterday"
 
 [push]
 	default = simple
